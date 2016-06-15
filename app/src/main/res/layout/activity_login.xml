@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.codelabs.latihanmvppattern.LoginActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/in_layout_emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <EditText
+            android:id="@+id/edt_text_emaillogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_hint_email_en"
+            android:inputType="textEmailAddress"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/in_layout_passwordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <EditText
+            android:id="@+id/edt_text_passwordlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_hint_password_en"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/button_login"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan MVP Pattern</string>
+    <string name="text_hint_email_en">Email</string>
+    <string name="text_hint_password_en">Password</string>
+</resources>
